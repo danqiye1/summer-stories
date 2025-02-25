@@ -1,0 +1,32 @@
+:root {
+    --primary-color: #fcca32;
+    --secondary-color: #fac8cd;
+    --accent-color: #69a297;
+    --background-color: #84b59f;
+    --text-color: #50808e;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    font-weight: 800;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}

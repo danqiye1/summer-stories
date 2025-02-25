@@ -1,0 +1,37 @@
+@import url("/css/global/boilerplate.css");
+@import url("/css/global/fonts.css");
+
+header {
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header h1 {
+    color: var(--text-color)
+}
+
+.navlinks {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navlinks li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navlinks li a {
+    text-decoration: none;
+    /* Remove underline */
+    color: var(--text-color);
+    /* Set text color */
+}
