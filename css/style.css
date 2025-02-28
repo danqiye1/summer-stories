@@ -50,3 +50,11 @@ header h1 {
     object-fit: cover;
     /* Ensure the image covers the area without distortion */
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
