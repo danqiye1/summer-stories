@@ -22,6 +22,7 @@ header h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 10px;
 }
 
 .navlinks li {
@@ -34,4 +35,18 @@ header h1 {
     /* Remove underline */
     color: var(--text-color);
     /* Set text color */
+}
+
+.carousel {
+    width: 100%;
+    /* Adjust the width as needed */
+    /* Adjust the height as needed */
+    margin: 0 auto;
+}
+
+.carousel img {
+    max-height: 600px;
+    /* Adjust the height as needed */
+    object-fit: cover;
+    /* Ensure the image covers the area without distortion */
 }
