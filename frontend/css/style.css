@@ -18,11 +18,13 @@ header h1 {
 }
 
 .navlinks {
+    background-color: var(--primary-color);
     list-style-type: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 10px;
+    margin: 0px;
+    padding: 10px;
 }
 
 .navlinks li {
